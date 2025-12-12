@@ -1,0 +1,118 @@
+.my_fon {
+	background-color: black;
+}
+
+.my_kotologg{
+	color:white;
+	font-size: 46px
+	
+}
+
+.my_osnova {
+	text-align: center;
+	
+}
+
+.my_zagolovok {
+    color: white;
+    font-family:Georgia, serif;
+}
+
+.my_katalog1 {
+
+	font-size: 64px;
+}
+
+.my_ramka {
+	border: 1px solid #777;
+	padding: 20px;
+	margin: 10px;
+}
+
+.my_link {
+	color: white;
+	text-decoration: none;
+}
+
+.my_link:hover {
+	color: yellow;
+	cursor: pointer;
+}
+
+.my_phone_name {
+	color: white;
+	font-size: 36px;
+}
+
+.my_knopka {
+	background-color: white; /* Green */
+	border: none;
+	
+	color: #333;
+	padding: 15px 32px;
+	text-align: center;
+	
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	
+	border: 2px solid #04AA6D;
+	
+	border-radius: 10px;
+	
+	font-size: 26px;
+	transition-duration: 300ms;
+}
+
+.my_knopka:hover {
+	
+	background-color: #04AA6D;
+	color: white;
+	
+	transition-duration: 300ms;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+.my_button_nazad {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.my_button_nazad span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.my_button_nazad span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.my_button_nazad:hover span {
+  padding-right: 25px;
+}
+
+.my_button_nazad:hover span:after {
+  opacity: 1;
+  right: 0;
+}ty: 1;
+  right: 0;
+}

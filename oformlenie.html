@@ -1,38 +1,52 @@
 <html>
 
 <head>
-<title> Оформление заказа </title>
+
+	<title> Оформление заказа </title>
+	<meta charset=utf-8>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+	<div class="my_osnova">
+		<form action="https://formspree.io/f/mqavkdnk" method="POST" onsubmit="clearForm()">
+		<label> Имя:</label> <br>
+		<input type ="text" name="name" id="name"> <br> <br>
 
-<form action="https://formspree.io/f/mqavkdnk" method="POST" onsubmit="clearForm()">
-<label> Имя:</label> <br>
-<input type ="text" name="name" id="name"> <br> <br>
+		<label> Номер :</label> <br>
+		<input type="tel" name="phone" id="phone" > <br> <br>
 
-<label> Номер :</label> <br>
-<input type="tel" name="phone" id="phone" > <br> <br>
+		<label>Адрес:</label><br>
+    		<input type="text" name="address" id="address"><br><br>
 
-<label>Адрес:</label><br>
-    <input type="text" name="address" id="address"><br><br>
+		<lable> Промокод </lable> <br>
+		<input type="text" name="promo" id="promo"> <br> <br>
 
-<lable> Промокод </lable> <br>
-<input type="text" name="promo" id="promo"> <br> <br>
+		<button class="my_knopka"> Отправить </button>
 
-<button type="submit"> Отправить </button>
-</form>
+		
 
-<a href="index.html" style="color:black"> Назад в магазин </a>
 
-<script>
-function clearForm() {
-setTimeout(function() {
-document.getElementById('name').value='';
-document.getElementById('phone').value='';
-document.getElementById('address').value='';
-document.getElementById('promo').value='';
-      },1000);
-}
-</script>
+		
+
+	</form>
+	<a class="my_link" href="index.html"> 
+		<button class="my_button_nazad" style="vertical-align:middle">
+			<span>На главную</span>
+		</button>
+	</a>	
+
+		<script>
+			function clearForm() {
+			setTimeout(function() {
+			document.getElementById('name').value='';
+			document.getElementById('phone').value='';
+			document.getElementById('address').value='';
+			document.getElementById('promo').value='';
+      			},1000);
+			}
+		</script>
+	</div>
 
 </body>
 </html>
